@@ -35,7 +35,8 @@
       <pubDate>Fri, 24 Jul 2020 21:25:17 +0900</pubDate>
       
       <guid>https://bhr0554.github.io/test/</guid>
-      <description>this is test page. hh.</description>
+      <description>this is test page.
+h1 : ## 내용 h2 : ## 내용 h3 : ### 내용  list1  list2  list3-1 list3-2       </description>
     </item>
     
   </channel>
