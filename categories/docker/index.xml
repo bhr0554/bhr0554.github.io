@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hye&#39;s Blog</title>
-    <link>https://bhr0554.github.io/</link>
-    <description>Recent content on Hye&#39;s Blog</description>
+    <title>docker on Hye&#39;s Blog</title>
+    <link>https://bhr0554.github.io/categories/docker/</link>
+    <description>Recent content in docker on Hye&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Mon, 27 Jul 2020 22:43:49 +0900</lastBuildDate>
     
-	<atom:link href="https://bhr0554.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bhr0554.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,15 +22,6 @@
 docker를 설치하는 3가지 방법.
 1. $ dnf install &amp;ndash;nobest docker-ce &amp;ndash;nobest option은 docker 설치에 가장 적합한 종속 package들을 설치해준다. &amp;ndash;nobest option없이 특정 버전을 설치할 때에는 아래와 같이 진행한다.
 2. $ dnf list docker-ce &amp;ndash;showduplicates | sort -r (repository에 있는 docker버전 목록) $ dnf install docker-ce-버전 ex) $ dnf install docker-ce-3 : 18.</description>
-    </item>
-    
-    <item>
-      <title>Nginx_install</title>
-      <link>https://bhr0554.github.io/nginx_install/</link>
-      <pubDate>Sun, 26 Jul 2020 15:49:31 +0900</pubDate>
-      
-      <guid>https://bhr0554.github.io/nginx_install/</guid>
-      <description>nginx</description>
     </item>
     
   </channel>
