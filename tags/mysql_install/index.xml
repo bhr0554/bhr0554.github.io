@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql_install on Hye&#39;s Blog</title>
+    <link>https://bhr0554.github.io/tags/mysql_install/</link>
+    <description>Recent content in mysql_install on Hye&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 27 Jul 2020 23:59:30 +0900</lastBuildDate>
+    
+	<atom:link href="https://bhr0554.github.io/tags/mysql_install/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to install mysql by Docker</title>
+      <link>https://bhr0554.github.io/study/docker/docker_mysql/</link>
+      <pubDate>Mon, 27 Jul 2020 23:59:30 +0900</pubDate>
+      
+      <guid>https://bhr0554.github.io/study/docker/docker_mysql/</guid>
+      <description>MySql $ docker search mysql ( mysql관련 image 검색 )
+$ docker full mysql ( mysql name을 가진 image pull )
+$ docker run &amp;ndash;name mysql -d -p 3307:3306 -e MYSQL_ROOT_PASSWORD=mysql mysql ( mysql 설정 및 설치)
+&amp;ndash; name은 Container의 이름
+-d는 detachedmode로 Container가 백그라운드로 실행됩니다.
+-p는 HOST와 cONTAINER의 포트를 연결하는 것으로 Host에서 3307로 접속 시 Container 3306으로 포워딩 되도록 설정
+-e는 Container내에서 사용할 환경변수로 MYSQL&amp;hellip;PASSWORD는 root계정의 pw를 설정
+마지막 mysql은 pull한 image이름</description>
+    </item>
+    
+  </channel>
+</rss>
