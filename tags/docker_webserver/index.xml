@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nginx on Hye&#39;s Blog</title>
-    <link>https://bhr0554.github.io/tags/nginx/</link>
-    <description>Recent content in nginx on Hye&#39;s Blog</description>
+    <title>docker_webserver on Hye&#39;s Blog</title>
+    <link>https://bhr0554.github.io/tags/docker_webserver/</link>
+    <description>Recent content in docker_webserver on Hye&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
     <lastBuildDate>Wed, 29 Jul 2020 22:03:39 +0900</lastBuildDate>
     
-	<atom:link href="https://bhr0554.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bhr0554.github.io/tags/docker_webserver/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,15 +21,6 @@
 docker 공식 : https://hub.docker.com/_/nginx
 참고 : https://minimilab.tistory.com/8
 # docker pull nginx:latest (최신버전의 nginx)</description>
-    </item>
-    
-    <item>
-      <title>Nginx_install</title>
-      <link>https://bhr0554.github.io/nginx_install/</link>
-      <pubDate>Sun, 26 Jul 2020 15:49:31 +0900</pubDate>
-      
-      <guid>https://bhr0554.github.io/nginx_install/</guid>
-      <description>nginx</description>
     </item>
     
   </channel>

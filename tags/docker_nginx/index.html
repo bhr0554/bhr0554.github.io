@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="ko-kr">
 <head>
-	<meta name="generator" content="Hugo 0.74.2" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Hye&#39;s Blog</title>
+  <title>docker_nginx</title>
   <link href="https://bhr0554.github.io//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://bhr0554.github.io//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
@@ -90,104 +89,9 @@ docker 공식 : https://hub.docker.com/_/nginx
     </div>
   </div>
 
-  
-  <div class="col m4 s12">
-    <div class="card-panel">
-      <h4><a href="https://bhr0554.github.io/study/docker/docker_mysql/">How to install mysql by Docker</a></h4>
-      <p>
-      
-        
-          <a href="https://bhr0554.github.io//categories/docker/">docker</a>
-        
-          <a href="https://bhr0554.github.io//categories/mysql/">mysql</a>
-        
-       
-      </p>
-      <p>MySql $ docker search mysql ( mysql관련 image 검색 )
-$ docker pull mysql ( mysql name을 가진 image pull )
-$ docker run &ndash;name mysql -d -p 3307:3306 -e MYSQL_ROOT_PASSWORD=mysql mysql ( mysql 설정 및 설치)
-&ndash; name은 Container의 이름
--d는 detachedmode로 Container가 백그라운드로 실행됩니다.
--p는 HOST와 cONTAINER의 포트를 연결하는 것으로 Host에서 3307로 접속 시 Container 3306으로 포워딩 되도록 설정
--e는 Container내에서 사용할 환경변수로 MYSQL&hellip;PASSWORD는 root계정의 pw를 설정
-마지막 mysql은 pull한 image이름</p>
-      <p>
-      27 Jul 2020
-      
-        
-          <a href="https://bhr0554.github.io//tags/docker/">#docker</a>
-        
-          <a href="https://bhr0554.github.io//tags/mysql_install/">#mysql_install</a>
-        
-       
-      </p>
-    </div>
-  </div>
-
-  
-  <div class="col m4 s12">
-    <div class="card-panel">
-      <h4><a href="https://bhr0554.github.io/study/docker/">Docker</a></h4>
-      <p>
-      
-        
-          <a href="https://bhr0554.github.io//categories/docker/">docker</a>
-        
-          <a href="https://bhr0554.github.io//categories/docker_install/">docker_install</a>
-        
-       
-      </p>
-      <p>도커 용어 정리 : https://docs.microsoft.com/ko-kr/dotnet/architecture/microservices/container-docker-introduction/docker-terminology
-도커 개념 정리 : https://cultivo-hy.github.io/docker/image/usage/2019/03/14/Docker%EC%A0%95%EB%A6%AC/
- docker install to CentOS8 $ dnf config-manager &ndash;add-repo=https://download.docker.com/linux/centos/docker-ce.repo (docker를 설치할 때 바라볼 repository 설정)
-docker를 설치하는 2가지 방법.
-1. $ dnf install &ndash;nobest docker-ce
-&ndash;nobest option은 docker 설치에 가장 적합한 종속 package들을 설치해준다.
-&ndash;nobest option없이 특정 버전을 설치할 때에는 아래와 같이 진행한다.
-2. $ dnf list docker-ce &ndash;showduplicates | sort -r (repository에 있는 docker버전 목록)
-$ dnf install docker-ce-버전</p>
-      <p>
-      27 Jul 2020
-      
-        
-          <a href="https://bhr0554.github.io//tags/docker/">#docker</a>
-        
-       
-      </p>
-    </div>
-  </div>
-
-  
-</div>
-<div class="row">
-  
-  <div class="col m4 s12">
-    <div class="card-panel">
-      <h4><a href="https://bhr0554.github.io/nginx_install/">Nginx_install</a></h4>
-      <p>
-      
-        
-          <a href="https://bhr0554.github.io//categories/nginx/">nginx</a>
-        
-       
-      </p>
-      <p>nginx</p>
-      <p>
-      26 Jul 2020
-      
-        
-          <a href="https://bhr0554.github.io//tags/nginx/">#nginx</a>
-        
-          <a href="https://bhr0554.github.io//tags/nginx_install/">#nginx_install</a>
-        
-       
-      </p>
-    </div>
-  </div>
-
 </div>
 
-  
+
 <div class="row">
   <div class="col s3 m1">
   

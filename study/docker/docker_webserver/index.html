@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>How to install mysql by Docker</title>
+  <title>How to install web server by Docker</title>
   <link href="https://bhr0554.github.io//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://bhr0554.github.io//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
@@ -54,43 +54,33 @@
     <div class="row">
       <div class="col s12">
         <div class="card-panel">
-          <h4>How to install mysql by Docker</h4>
+          <h4>How to install web server by Docker</h4>
           <p>
           
             
               <a href="https://bhr0554.github.io//categories/docker/">docker</a>
             
-              <a href="https://bhr0554.github.io//categories/mysql/">mysql</a>
-            
            
           </p>
-          <p><h3 id="mysql">MySql</h3>
-<p>$ docker search mysql ( mysql관련 image 검색 )<br>
-$ docker pull mysql ( mysql name을 가진 image pull )<br>
-$ docker run &ndash;name mysql -d -p 3307:3306 -e MYSQL_ROOT_PASSWORD=mysql mysql ( mysql 설정 및 설치)<br>
-&ndash; name은 Container의 이름<br>
--d는 detachedmode로 Container가 백그라운드로 실행됩니다.<br>
--p는 HOST와 cONTAINER의 포트를 연결하는 것으로 Host에서 3307로 접속 시 Container 3306으로 포워딩 되도록 설정<br>
--e는 Container내에서 사용할 환경변수로 MYSQL&hellip;PASSWORD는 root계정의 pw를 설정<br>
-마지막 mysql은 pull한 image이름</p>
-<p>$ docker exec -it mysql /bin/bash<br>
-exec을 통해 Container에 특정 명령을 실행
--it는 Container에서 Bash를 사용할 수 있게 해줌.
-mariadb는 run명령어에서 지정한 Container의 이름
-/bin/bash는 bash SHELL에 연결하겠다는 의미</p>
-<h3 id="mariadb">MariaDB</h3>
-<p>$ docker search mariadb<br>
-$ docker pull mariadb<br>
-$ docker run &ndash;name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=mariadb mariadb<br>
-$ docker exec -it mariadb /bin/bash</p>
-<p>참고 : <a href="https://velog.io/@hongji3354/Docker%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-MariaDB-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0">https://velog.io/@hongji3354/Docker%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-MariaDB-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0</a></p>
+          <p><p>참고 사이트<br>
+docker 공식 : <a href="https://hub.docker.com/_/nginx">https://hub.docker.com/_/nginx</a><br>
+참고 : <a href="https://minimilab.tistory.com/8">https://minimilab.tistory.com/8</a></p>
+<p># docker pull nginx:latest (최신버전의 nginx)</p>
 </p>
-          <p>27 Jul 2020
+          <p>29 Jul 2020
             
               
                 <a href="https://bhr0554.github.io//tags/docker/">#docker</a>
               
-                <a href="https://bhr0554.github.io//tags/mysql_install/">#mysql_install</a>
+                <a href="https://bhr0554.github.io//tags/docker_webserver/">#docker_webserver</a>
+              
+                <a href="https://bhr0554.github.io//tags/docker_nginx/">#docker_nginx</a>
+              
+                <a href="https://bhr0554.github.io//tags/docker_httpd/">#docker_httpd</a>
+              
+                <a href="https://bhr0554.github.io//tags/nginx/">#nginx</a>
+              
+                <a href="https://bhr0554.github.io//tags/httpd/">#httpd</a>
               
             
           </p>
@@ -102,13 +92,13 @@ $ docker exec -it mariadb /bin/bash</p>
     <div class="row">
       <div class="col s3 m1">
       
-        <a class="btn-floating btn-large waves-effect waves-light" href="https://bhr0554.github.io/study/docker/"><i class="mdi-navigation-arrow-back"></i></a>
+        <a class="btn-floating btn-large waves-effect waves-light" href="https://bhr0554.github.io/study/docker/docker_mysql/"><i class="mdi-navigation-arrow-back"></i></a>
       
       </div>
       <div class="col s6 m10 center">&nbsp</div>
       <div class="col s3 m1">
       
-        <a class="btn-floating btn-large waves-effect waves-light" href="https://bhr0554.github.io/study/docker/docker_webserver/"><i class="mdi-navigation-arrow-forward"></i></a>
+        <a class="btn-floating btn-large disabled"><i class="mdi-navigation-arrow-forward"></i></a>
       
       </div>
     </div>
