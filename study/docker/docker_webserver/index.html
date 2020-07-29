@@ -83,7 +83,7 @@ docker 공식 : <a href="https://hub.docker.com/_/nginx">https://hub.docker.com/
 $ docker run &ndash;name some-nginx -v /home/nginx:/usr/share/nginx/html:ro -d -p 80:80 nginx<br>
 $ vi /home/nginx/index.html (nginx url 접속 시 index 페이지)<br>
 $ docker exec -it 6b3e4f73dd81 /bin/bash (Docker Container 경로 진입)<br>
-$ root@6b3e4f73dd81:/# exit (컨테이너 나가기)</p>
+root@6b3e4f73dd81:/# exit (컨테이너 나가기)</p>
 <h3 id="httpd">Httpd</h3>
 <p>$ docker pull httpd:latest
 $ docker run -dit &ndash;name httpd -p 81:80 -v &ldquo;$PWD&rdquo;:/usr/local/apache2/htdocs/ httpd:latest
