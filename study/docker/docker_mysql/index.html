@@ -66,7 +66,7 @@
           </p>
           <p><h3 id="mysql">MySql</h3>
 <p>$ docker search mysql ( mysql관련 image 검색 )<br>
-$ docker full mysql ( mysql name을 가진 image pull )<br>
+$ docker pull mysql ( mysql name을 가진 image pull )<br>
 $ docker run &ndash;name mysql -d -p 3307:3306 -e MYSQL_ROOT_PASSWORD=mysql mysql ( mysql 설정 및 설치)<br>
 &ndash; name은 Container의 이름<br>
 -d는 detachedmode로 Container가 백그라운드로 실행됩니다.<br>
@@ -80,7 +80,7 @@ mariadb는 run명령어에서 지정한 Container의 이름
 /bin/bash는 bash SHELL에 연결하겠다는 의미</p>
 <h3 id="mariadb">MariaDB</h3>
 <p>$ docker search mariadb<br>
-$ docker full mariadb<br>
+$ docker pull mariadb<br>
 $ docker run &ndash;name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=mariadb mariadb<br>
 $ docker exec -it mariadb /bin/bash</p>
 <p>참고 : <a href="https://velog.io/@hongji3354/Docker%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-MariaDB-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0">https://velog.io/@hongji3354/Docker%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C-MariaDB-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0</a></p>
