@@ -62,9 +62,14 @@
             
            
           </p>
-          <p><p>docker ps -a (실행중인 docker container 프로세스 목록)
-docker logs -f container이름 (로그 - ps -a명령어를 통해 container이름 알 수 있음)
-docker stop psID</p>
+          <p><h3 id="docker">docker</h3>
+<p>ps -a (실행중인 docker container 프로세스 목록)
+logs -f container이름 (로그 - ps -a명령어를 통해 container이름 알 수 있음)
+stop containerID
+exec -it containerID /bin/bash (Docker container 진입)</p>
+<h3 id="docker-compose">docker-compose</h3>
+<p>up -d ( compose 실행 )
+down &ndash;volumes ( compose 삭제 )</p>
 </p>
           <p>1 Aug 2020
             
