@@ -6,10 +6,19 @@
     <description>Recent content in Studies on Hye&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 29 Jul 2020 22:03:39 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 00:01:16 +0900</lastBuildDate>
     
 	<atom:link href="https://bhr0554.github.io/study/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker_command</title>
+      <link>https://bhr0554.github.io/study/docker_command/</link>
+      <pubDate>Sat, 01 Aug 2020 00:01:16 +0900</pubDate>
+      
+      <guid>https://bhr0554.github.io/study/docker_command/</guid>
+      <description>docker ps -a (실행중인 docker container 프로세스 목록) docker logs -f container이름 (로그 - ps -a명령어를 통해 container이름 알 수 있음) docker stop psID</description>
+    </item>
     
     <item>
       <title>How to install web server by Docker</title>
